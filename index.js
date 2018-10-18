@@ -20,6 +20,8 @@ function distanceTravelledInFeet(street1,street2) {
   } else {return (street1-street2)*264}
 }
 
+function calculatesFarePrice(start, destination)
+
 function scuberGreetingForFeet(ride) {
 if (ride <= 400) {
   return "This one is on me!";
