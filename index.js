@@ -20,7 +20,15 @@ function distanceTravelledInFeet(street1,street2) {
   } else {return (street1-street2)*264}
 }
 
-function calculatesFarePrice(start, destination)
+function calculatesFarePrice(street1, street2) {
+  if (distanceTravelledInFeet(street1,street2) <= 400) {
+  return 0;
+  }
+  else if (distanceTravelledInFeet(street1,street2) > 2000 && distanceTravelledInFeet(street1,street2) <=2500) {
+  return "I will gladly take your thirty bucks.";
+}
+}
+
 
 function scuberGreetingForFeet(ride) {
 if (ride <= 400) {
