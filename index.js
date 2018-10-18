@@ -1,4 +1,7 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(street) {
-  return street - 42 ;
+  if (street < 42) {
+    return 42 - street;
+  } else {return street - 42 ;}
+  
 }
