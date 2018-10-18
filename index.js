@@ -6,6 +6,7 @@ let block = function distanceFromHqInBlocks(street) {
   
 }
 
+block; 
 function distanceFromHqInFeet() {
   return block*264;  
 }
