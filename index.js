@@ -31,26 +31,26 @@ else if ( distanceTravelledInFeet(street1,street2) > 2000) {
   return 25;
 }
 
-else {return }
+else {return "cannot travel that far";}
 }
 
 
-function scuberGreetingForFeet(ride) {
-if (ride <= 400) {
-  return "This one is on me!";
+// function scuberGreetingForFeet(ride) {
+// if (ride <= 400) {
+//   return "This one is on me!";
   
-}
+// }
 
-else if (ride > 2000 && ride <=2500) {
-  return "I will gladly take your thirty bucks.";
-}
+// else if (ride > 2000 && ride <=2500) {
+//   return "I will gladly take your thirty bucks.";
+// }
 
-else if (ride > 2500) {
-  return "No can do.";
-}
+// else if (ride > 2500) {
+//   return "No can do.";
+// }
 
-else {
-  return "This one is on me!";
-}
+// else {
+//   return "This one is on me!";
+// }
 
-}
+// }
