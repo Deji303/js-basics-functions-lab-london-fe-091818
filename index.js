@@ -25,7 +25,7 @@ function calculatesFarePrice(street1, street2) {
   return 0;
   }
   else if (distanceTravelledInFeet(street1,street2) > 400 && distanceTravelledInFeet(street1,street2) <2000) {
-  return distanceTravelledInFeet(street1,street2)*2 ;
+  return ((distanceTravelledInFeet(street1,street2)-400)*2)/100 ;
 }
 else if ( distanceTravelledInFeet(street1,street2) > 2000) {
   return 25;
