@@ -13,3 +13,7 @@ function distanceFromHqInBlocks(street) {
 function distanceFromHqInFeet(street) {
   return distanceFromHqInBlocks(street)*264;  
 }
+
+function distanceTravelledInFeet(street1,street2) {
+  
+}
