@@ -1,7 +1,7 @@
 // Code your solution in this file!
 
 
-let blocks = function distanceFromHqInBlocks(street) {
+function distanceFromHqInBlocks(street) {
   if (street < 42) {
     return 42 - street;
   } else {return street - 42 ;}
@@ -11,5 +11,5 @@ let blocks = function distanceFromHqInBlocks(street) {
 
 
 function distanceFromHqInFeet(street) {
-  return blocks*264;  
+  return distanceFromHqInBlocks(street)*264;  
 }
