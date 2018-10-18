@@ -15,5 +15,7 @@ function distanceFromHqInFeet(street) {
 }
 
 function distanceTravelledInFeet(street1,street2) {
-  
+  if(street1<street2) {
+    return (street2-street1)*264
+  } else {(street1-street2)*264}
 }
